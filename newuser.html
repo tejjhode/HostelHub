@@ -3,45 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New User</title>
-    <link rel="stylesheet" href="style.css">
+    <title>New user</title>
 </head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Edu+TAS+Beginner:wght@500&family=Montserrat:ital,wght@1,500&family=Nosifer&display=swap');
+    body{
+        margin: 20px;
+        padding: 20px;
+        font-size: larger;
+        background-color:cornsilk;
+    }
+    header{
+        color: darkred;
+        text-indent: 450px;
+        text-decoration: underline;
+        text-decoration-color: darkblue;
+        font-family: Nosifer;
+    }
+    main{
+        padding: 20px;
+        margin: 30px;
+        text-indent: 350px;
+        line-height: 0.9cm;
+        font-family:Edu TAS Beginner;
+        
+    }
+    form{
+        border:2px solid black;
+        background-color:rgb(229, 241, 244);
+    }
+</style>
 <body>
-     <h1>Create new user </h1>
-    <form action="post">
-    <div>
-        <label for="Name">Enter Your Name</label>
-        <input type="text" id="name" name="name" placeholder="Enter Your Name">
+    <header>
+        <h1>Create a new account</h1>
+    </header>
+    <main>
+        <form action="post">
+        <div class="name">
+        <label for="">Enter Your Name</label>
+        <input type="text" id="name" placeholder="Your Name">
     </div>
-    <div>
-        <label for="Phone Number">Phone Number</label>
-        <input type="text" name="Number" id="Number" placeholder="Mobile Number">
+    <div class="Number">
+       <label for=" Contect Number"> Contect Number</label>
+       <input type="text" id=" Contect Number" placeholder="Phone Number">
     </div>
-        <div>
-            <label for="Name">Enter Mail Id</label>
-            <input type="email" id="name" name="name" placeholder="abc@xyz.com">
-        </div>
-    <div>
-        <label for="Date Of brith">Date Of Brith</label>
-        <input type="date" name="DOB" id="DOB">
+    <div class="email">
+        <label for="">Email Id</label>
+        <input type="email" id="email" placeholder="abc@xyz.com">
     </div>
-    <div>
-        <input type="radio" name="gender" id="male" value="male">
-        <label for="male">Male</label>
-        <input type="radio" name="gender" id="female" value="female">
-        <label for="female">Female</label>
-        <input type="radio" name="gender" id="Other" value="Other>
-        <label for="female">Other</label>
+    <div class="DOB">
+        <label for="date Of Brith">Date Of Birth</label>
+        <input type="date" name="DOB" id="DOB" placeholder="DD/MM/YYYY">
     </div>
-    <div>
+    <div class="gender">
+      <label for="">Gender:-</label>
+      <input type="radio" name="gender" id="male" value="male">
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" value="female">
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="other" value="other>
+      <label for="Other">Other</label>
+    </div>
+    <div class="Branch">
         <label for="Name">Branch</label>
         <input type="text" id="name" name="name" placeholder="Enter Your Branch">   
     </div>
-    <div>
+    <div class="Roll">
         <label for="Name">Enrollment Number</label>
         <input type="text" id="name" name="name" placeholder="Enter Your Enrollment">   
     </div>
-    <div>
+    <div class="Semester">
         <label for="">Semester</label>
         <select name="Semester" id="Semester">
             <option value="1">1</option>
@@ -55,24 +86,24 @@
             
         </select>
     </div>
-    <div>
+    <div class="password">
         <label for="password">Enter password</label>
         <input type="password" name="password" id="password" placeholder="Create Password">
-        <br>
+        </div><div class="confirm ">
         <label for="password">Confirm password</label>
         <input type="password" name="password" id="password" placeholder="Confirm Password">
 
     </div>
-    <div>
+    <div class="terms">
         <input type="checkbox" name="terms" id="terms" value="yes">
         <label for="Terms">I have read and agreed to the Terms & Condition*</label>
     </div>
-    <div>
-        <a href="welcome.html" target="_blank" rel="noopener noreferrer">
+    <div class="buttons">
+        <a href="login.html" target="_blank" rel="noopener noreferrer">
         <input type="submit" value="submit" ></a>
         <input type="reset" value="reset">
     </div>
-    </form>
-
+    </main>
+</form>
 </body>
 </html>
