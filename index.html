@@ -5,46 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <style>
-      body,span{
-         background-color: silver;
-         font-size: large;
-         background-size: auto;
-         background-attachment: scroll;
-         font-style:italic;
-         border: 3px solid black;
-         position: static;
-      }
-      div,span{
-         color: red;
-      }
-      p,span{
-         font-size: small;
-      }
+        body{
+            margin: 200px;
+            padding: 20px;
+            font-size: large;
+            background-color: antiquewhite;
+        }
+        main{
+            margin: 150px;
+            padding: 5px;
+            border: 2px solid black;
+            width: 500px;
+            background-color: rgb(249, 191, 156);
+           
+        }
+        
+        h1{
+            
+            color: darkred;
+            text-decoration: underline;
+            text-decoration-color: black;
+            text-indent: 50px;
+            
+        }
+        .username{
+            color: darkcyan;
+            text-indent: 90px;
+            text-transform: capitalize;
+            line-height: 20px;
+        }
+        .password{
+            color: green;
+            text-indent: 90px;
+            text-transform: capitalize;
+            
+        }
+        .submit{
+            text-indent: 120px;
+            
+        }
+        p{
+            text-indent: 60px;
+        }
     </style>
 </head>
 <body>
-    <h1 style="font-size: xx-large; color: brown; "> Login here...</h1>
-    <div >
-        <label for="">username-</label>
-        <input type="text" id="username" name="username" placeholder="Enter your username">
-        </div>
-        <br>
-        <div>
-           <label for=""> password-</label>
-        <input type="password" name="password" id="password" placeholder="Enter your password">
-         </div>
-         <br>
-         <div>
-            <a href="login.html" rel="noopener noreferrer">
-            <input type="submit" value="Login" style="color: yellowgreen;"></a>
-            <a href="forget.html" target="_blank" rel="noopener noreferrer">
-            <input type="submit" value="Forget Password" style="color: yellowgreen;"></a>
-         </div>
-         
-            <p>Create new account
-            <a target="_blank" href="newuser.html">click here</a>
-            </p>
-         
+    <main>
+    <h1>Login Here</h1>
+    <div class="username">
+        <label for="">username</label>
+        <input type="text" id="username" placeholder="Enter your username">
+    </div>
+    <br>
+    <div class="password">
+        <label for="">password</label>
+        <input type="password" id="password" placeholder="Enter your password">
+    </div>
+    <br>
+    <div class="submit">
+     <a href="login.html" target="_blank" rel="noopener noreferrer">
+     <input type="submit" value="submit"></a> 
     
+    <a href="forget.html" rel="noopener noreferrer">
+        <input type="submit" value="Forget password" style="padding: 2px;"></a>
+    </div>
+    <p>Create new account
+        <a target="_blank" href="newuser.html">click here</a>
+    </p>
+</main>
+
 </body>
 </html>
