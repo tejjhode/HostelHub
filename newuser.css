@@ -65,20 +65,23 @@
             width: 45vh;
         }
         main{
-            text-indent: 3.50vh;
-            line-height: 4vh;
+            text-indent: .50vh;
+            line-height: vh;
             font-family:Edu TAS Beginner;
             font-size: 2vh;
         }
         form{
             margin-left: 0vh;
             border:2px solid black;
+            overflow:scroll;
             box-shadow: 0.5vh 1.5vh 2.0px gray;
-            width: 45vh;
-            height: 60vh;
+            width: 37vh;
+            height: 55vh;
             border-radius: 4vh;
             background-color:rgb(231, 231, 227);
             opacity:.78;
             outline: 0px solid black;
         }
-   
+
+    }
+    
