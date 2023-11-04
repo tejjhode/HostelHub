@@ -77,11 +77,11 @@
             box-shadow: 0.5vh 1.5vh 2.0px gray;
             width: 40vh;
             height: 75vh;
+            width: 37vh;
+            height: 55vh;
             border-radius: 4vh;
             background-color:rgb(231, 231, 227);
             opacity:.78;
             outline: 0px solid black;
         }
-
     }
-    
