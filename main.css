@@ -93,7 +93,7 @@ p,span{
         margin: 0vh;
         display: flex;
         border: .22vh solid black;
-        width: 40vh;
+        width: 45vh;
         border-radius: 3vh;
         background-image: url(https://wp-mktg.prod.getty1.net/istockcontentredesign/wp-content/uploads/sites/5/bfi_thumb/2021_iStock_LatestBGTrends_Hero.jpg-p4y8j8ysb3w8r2rym9sadz986l9vue47e31481z5xg.jpeg);
     }
@@ -111,9 +111,10 @@ p,span{
       
         margin:  5vh 5vh ;
         padding: 2vh;
-        word-spacing: 1vh;
+        display:flexbox;
      }
     .raju{
+        position: relative;
         outline: 2px solid black;
         border-radius: 50vh;
         box-shadow: 10px 20px 20px 5px ;
@@ -121,19 +122,26 @@ p,span{
     }
     
     .Yugal{
+        position: relative;
+        top: 5vh;
         outline: 2px solid black;
         border-radius: 50vh;
         outline-offset: .3vh;
         box-shadow: 10px 20px 20px 5px ;
     }
     .Vishwas{
+        position: relative;
+        top: 10vh;
         outline: 2px solid black;
         border-radius: 50vh;
         outline-offset: .3vh;
         box-shadow: 10px 20px 20px 5px ;
     }
     .mix{
+        position: relative;
+        top: 15vh;
         outline: 2px solid black;
+        width: 41vh;
         border-radius: 50vh;
         outline-offset: .3vh;
         box-shadow: 10px 20px 20px 5px ;
@@ -143,6 +151,26 @@ p,span{
         font-family: Exo 2;
         text-indent: 15vh;
         word-spacing: 33vh;
+    }
+    .rajuN{
+        position:absolute;
+        top:62%;
+        left: 8%;
+    }
+    .yugalN{
+        position:absolute;
+        top:116%;
+        left: 8%;
+    }
+    .vishwasN{
+        position:absolute;
+        top:170%;
+        left: 8%;
+    }
+    .AT{
+        position:absolute;
+        top:225%;
+        left: 20%;
     }
    
 }
