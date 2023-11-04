@@ -65,6 +65,7 @@ ul{
     box-shadow: 10px 20px 20px 5px ;
     
 }
+
 p,span{
     font-family: Exo 2;
     text-indent: 15vh;
@@ -120,6 +121,12 @@ p,span{
         box-shadow: 10px 20px 20px 5px ;
         outline-offset: .3vh;
     }
+    .raju::after{
+        content: "Raju";
+        color: blue;
+        
+        
+    }
     
     .Yugal{
         position: relative;
@@ -129,6 +136,12 @@ p,span{
         outline-offset: .3vh;
         box-shadow: 10px 20px 20px 5px ;
     }
+    .Yugal::after{
+        content: "Yugal";
+        color: blue;
+        
+    }
+
     .Vishwas{
         position: relative;
         top: 10vh;
@@ -136,6 +149,11 @@ p,span{
         border-radius: 50vh;
         outline-offset: .3vh;
         box-shadow: 10px 20px 20px 5px ;
+    }
+    .Vishwas::after{
+        content: "Vishwas";
+        color: blue;
+        
     }
     .mix{
         position: relative;
@@ -146,31 +164,18 @@ p,span{
         outline-offset: .3vh;
         box-shadow: 10px 20px 20px 5px ;
         
+    } 
+     .mix::after{
+        content: "All Together";
+        color: blue;
+        
     }
     p,span{
+        color: white;
         font-family: Exo 2;
-        text-indent: 15vh;
-        word-spacing: 33vh;
+        text-indent: 0vh;
+        word-spacing: 0vh;
     }
-    .rajuN{
-        position:absolute;
-        top:62%;
-        left: 8%;
-    }
-    .yugalN{
-        position:absolute;
-        top:116%;
-        left: 8%;
-    }
-    .vishwasN{
-        position:absolute;
-        top:170%;
-        left: 8%;
-    }
-    .AT{
-        position:absolute;
-        top:225%;
-        left: 20%;
-    }
+    
    
 }
